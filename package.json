@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/RonAddy/Todo-App#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "pg-promise": "^7.0.3"
   }
 }
