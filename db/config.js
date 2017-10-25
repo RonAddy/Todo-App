@@ -4,6 +4,7 @@ const options = {
   },
 };
 
+//Importing the pg-promise module
 const pgp = require('pg-promise')(options);
 
 function setDatabse() {
@@ -20,4 +21,5 @@ function setDatabse() {
 }
 const db = setDatabse();
 
+//Exporting db for use in Todos.js model
 module.exports = db;
