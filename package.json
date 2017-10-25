@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RonAddy/Todo-App/issues"
   },
-  "homepage": "https://github.com/RonAddy/Todo-App#readme"
+  "homepage": "https://github.com/RonAddy/Todo-App#readme",
+  "dependencies": {
+    "pg-promise": "^7.0.3"
+  }
 }
