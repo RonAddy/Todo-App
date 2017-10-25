@@ -1,0 +1,20 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "Store your list of TO-DOS!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonAddy/Todo-App.git"
+  },
+  "author": "Aaron Bart-Addison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RonAddy/Todo-App/issues"
+  },
+  "homepage": "https://github.com/RonAddy/Todo-App#readme"
+}
