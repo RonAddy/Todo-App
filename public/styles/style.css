@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  /*box-sizing: border-box;*/
+  justify-content: space-around;
+  border-bottom: 3px solid black;
+}
+
+header nav ul {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 900;
+  box-sizing: border-box;
+  font-style: italic;
+}
+
+header nav ul li a {
+  padding: 0 15px;
+  color: blue;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+footer {
+  position: fixed;
+  border: 2px solid black;
+  bottom: 0;
+  width: 100%;
+}
+
+#copyright {
+  margin: auto;
+  font-size: 40pt;
+  color: red;
+}
