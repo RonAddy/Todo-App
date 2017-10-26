@@ -2,7 +2,7 @@ const db = require('../db/config');
 
 const Todos = {};
 
-Todos.findALL = () => {
+Todos.findAll = () => {
   return db.query(
     `SELECT * FROM todos`
   );
