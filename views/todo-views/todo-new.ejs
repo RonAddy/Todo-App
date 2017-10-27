@@ -1,0 +1,15 @@
+<% include ../partials/boilerplate %>
+
+<div>
+  <div>
+    <form action="/todos" method="POST">
+      <input type="text" name="title" placeholder="Title"/>
+      <input type="text" name="category" placeholder="Category"/>
+      <input type="text" name="info" placeholder="Info"/>
+      <input type="submit" value="Add TODO!"/>
+    </form>
+  </div>
+  <a href="/todos">Back to TODO List</a>
+</div>
+
+<% include ../partials/end %>
